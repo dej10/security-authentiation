@@ -17,7 +17,7 @@ Checkout the commits for the diffs
 
 ## Installation
 
-Packages Used
+### `Packages Used`
 
 ``` javascript
 
@@ -37,7 +37,7 @@ const findOrCreate = require("mongoose-findorcreate");
 
 ## Cookies & Sessions
 
-Cookies and sessions implentation using PassportJS 
+### `Cookies and sessions implentation using PassportJS `
 
 ```javascript
 
@@ -65,7 +65,7 @@ app.use(passport.session());
 
 ## Google OAuth2.0
 
-Google OAuth Strategy, this strategy hashes and salts passwords when signing in without Google OAuth.
+### `Google OAuth Strategy, this strategy hashes and salts passwords when signing in without Google OAuth`
 
 ``` javascript
 
@@ -109,7 +109,7 @@ app.get('/auth/google/callback',
 
 ## Sign In , Sign Up & Log Out
 
-Sign Up
+### `Sign Up`
 ```javascript
 .post(function(req, res) {
 
@@ -138,7 +138,7 @@ Sign Up
 
 ```
 
-Sign In
+### `Sign In`
 
 ``` javascript
 .post(function(req, res) {
