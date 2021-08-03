@@ -166,7 +166,10 @@ app.get('/auth/google/callback',
 
 
 ```
-Log Out
+
+### `Log Out`
+
+
 
 ```javascript
 
